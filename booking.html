@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Styles.css">
+    <title>Booking page</title>
+    
+</head>
+
+<body>
+    <a tabindex="1" class="skip_to_content" href="#content">Skip to main content</a>
+    <header>
+        <nav aria-label="Navigation">
+            <ul>
+                <li> <a href="index.html">Startside</a></li>
+                <li> <a class="active" href="booking.html">Booking</a></li>
+                <li> <a href="cafe.html">Kafé</a></li>
+                <li> <a  href="accessibility.html">Tilgjengelighet</a></li>
+                <li> <a href="topical.html">Aktuelt</a></li>
+            </ul>
+        </nav>
+        <h1 tabindex="0">Booking</h1>
+    </header>
+
+
+    <main id="main_content">
+    <p tabindex="0">SAMLET tilbyr lokaler for både små og store selskap.
+     Vi ligger i hovedstadens sentrum,og er det perfekte stedet for nettop deg<br>
+     som arrangerer bursdagsfest, event, bryllup o.l. Vi har lokaler med plass til opptil 200 personer
+     Fyll ut skjemaet nedenfor så tar vi kontakt for å finne det lokalet som passer deg best!</p>
+    
+
+    
+
+  
+    <div id="form">
+        <h2 tabindex="0">Bookingskjema:</h2>
+        <label for="name">Navn:</label><br>
+        <input type="text" placeholder="Skriv inn ditt fulle navn.."><br>
+        <label for="type">Type arrangement:</label><br>
+        <input type="text" placeholder="Hva slags type arrangement ønsker du å holde..."><br>
+        <label for="gjester">Antall Gjester:</label><br>
+    <select name="Velg" id="Velg">
+        <option value="1">5-10 personer</option>
+        <option value="2">20-50 personer</option>
+        <option value="3">100-200 personer</option>
+    </select><br> 
+        
+        <label for="mail">Epost:</label><br>
+        <input type="text" placeholder="Skriv inn eposten du ønsker å bli kontaktet på.."><br>
+        <label for="tlf">Telefonnummer:</label><br>
+        <input type="text" placeholder="Skriv inn tlf-nummeret du ønsker å bli kontaktet på...."><br>
+        <label for="extrainformation">Kommentar:</label><br>
+        <input type="text" placeholder="Er du noe du ønsker å legge til som kunne vært nyttig for oss å vite?"><br> 
+    
+
+    <div class="row">
+        <p>  </p><br>
+      <input type="submit" value="Send">
+    </div>
+
+    </div>
+
+    </main>
+
+
+<footer>
+    <div id="footer_left"> 
+        <p tabindex="0" > Pilestredet 35 </p> 
+        <p tabindex="0" > 0166 Oslo</p>
+        <p tabindex="0" > samlet@lokaler.no</p>
+     </div>
+ 
+     <div tabindex="0" id="footer_right">
+         <img id="logo" src="img/SAMLET1.png" alt="Logo til SAMLET">
+     </div>
+        
+</footer>
+
+</body>
+
+</html>
